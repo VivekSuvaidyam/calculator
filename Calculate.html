@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate</title>
+    <link rel="stylesheet" href="calculate.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="div_contaner">
+            <input class="input1" type="text" id="result">
+        
+            <div class="row">
+                <button onclick="clrc()" class="btn2">AC</button>
+                <button onclick="dele()" class="btn2">DEL</button>
+                <button onclick="display('%')" class="btn2 per">%</button>
+                <button onclick="display('/')" class="btn2">/</button> 
+            </div>
+
+            <div class="row">
+                <button onclick="display('7')" class="btn1">7</button>
+                <button onclick="display('8')" class="btn1">8</button>
+                <button onclick="display('9')" class="btn1">9</button>
+                <button onclick="display('*')" class="btn2">*</button>
+            </div>
+
+            <div class="row">
+                <button onclick="display('4')" class="btn1">4</button>
+                <button onclick="display('5')" class="btn1">5</button>
+                <button onclick="display('6')" class="btn1">6</button>
+                <button onclick="display('-')" class="btn2">-</button>
+            </div>
+
+            <div class="row">
+                <button onclick="display('1')" class="btn1">1</button>
+                <button onclick="display('2')" class="btn1">2</button>
+                <button onclick="display('3')" class="btn1">3</button>
+                <button onclick="display('+')" class="btn2">+</button>
+            </div>
+
+            <div class="row">
+                <button onclick="display('00')" class="btn1">00</button>
+                <button onclick="display('0')" class="btn1">0</button>
+                <button onclick="display('.')" class="btn1">.</button>
+                <button onclick="calculater()" class="btn2">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./calculate.js"></script>
+</body>
+
+</html>
